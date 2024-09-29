@@ -14,18 +14,15 @@
 - **Compact View**: A compact view mode for a cleaner look.
 - **Ad Free**: Enjoy an ad-free and tracking-free experience.
 
----
 
 ## Requests
 
 Have suggestions for missing tasks, bugs, or new feature requests? Please submit them to the [issue tracker](https://github.com/Kubuzer/DailyLiberty/issues).
 
----
 
 ## Credits
 
 - Original source code by [DailyArk](https://dailyark.github.io), [DailyScape](https://dailyscape.github.io), and [DailyImmortal](https://github.com/dailyimmortal/dailyimmortal.github.io).
 
----
 
 Feel free to contribute or reach out if you have any questions!
