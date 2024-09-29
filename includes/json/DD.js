@@ -1,5 +1,5 @@
 var dailydrops = {
-    "daily-dungeon": {
+        "daily-dungeon": {
         task: "4 Player Dungeons",
         url: "#",
         short: true,
