@@ -1,9 +1,6 @@
 [![DailyLiberty](./includes/img/dailyliberty.png)](https://dailyliberty.github.io)
 
-# 🌟 DailyLiberty
-**Dailies and Weeklies for Throne and Liberty**
-
----
+# DailyLiberty
 
 ## Features
 
