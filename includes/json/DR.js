@@ -1,5 +1,5 @@
 var dailies = {
-    "daily-quest-allowances": {
+        "daily-quest-allowances": {
         task: "Daily Quest Allowances",
         url: "#",
         short: true,
@@ -54,5 +54,5 @@ var dailies = {
         desc: "Complete all timegate-based progression activities (can take as little as 30 mins).",
         img: "placeholder",
         boxcount: 1
-    }
+    },
 };
