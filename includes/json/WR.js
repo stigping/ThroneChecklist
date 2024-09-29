@@ -1,53 +1,74 @@
 var weeklies = {
-    "challenge-rifts": {
-        task: "Challenge Rifts",
+    "weekly-world-events": {
+        task: "World Events Participation",
         url: "#",
-        desc: "Reach as high as you can on challenge rift for weekly rewards",
+        short: true,
+        desc: "Participate in Dynamic Events, World Bosses, and Castle Siege events.",
         img: "placeholder",
         boxcount: 1
     },
-    "codex-quest": {
-        task: "Codex Quests",
+    "weekly-arena-pvp": {
+        task: "3v3 Arena PvP",
         url: "#",
-        desc: "Complete battle pass codex quests",
+        short: true,
+        desc: "Engage in 3v3 Instanced Arena PvP matches.",
         img: "placeholder",
         boxcount: 1
     },
-    "contract": {
-        task: "Contracts Weekly",
+    "weekly-guild-bosses": {
+        task: "Guild Boss Fights",
         url: "#",
-        desc: "Complete 3 contracts for weekly rewards",
+        short: true,
+        desc: "Participate in Weekly Guild Bosses as scheduled by your guild.",
         img: "placeholder",
-        boxcount: 3
-    },
-    "fading-ember": {
-        task: "Fading Ember",
-        url: "#",
-        desc: "Run Elder Rifts to collect 400 {ember}",
-        img: "ember",
         boxcount: 1
     },
-    "helliquary": {
-        task: "Helliquary",
+    "weekly-sidequests": {
+        task: "Complete Sidequests",
         url: "#",
-        desc: "Kill ALL of the Helliquary Bosses that you are able to. Resets every Monday and Thursday.",
-        img: "scoria",
+        short: true,
+        desc: "Finish up sidequests and lore codex entries.",
+        img: "placeholder",
         boxcount: 1
     },
-    "hilt": {
-        task: "Hilts Trader Weekly",
+    "weekly-expeditions": {
+        task: "Send Amitoi on Expeditions",
         url: "#",
-        desc: "Buy weekly items from Hilts Trader",
-        img: "hilts",
+        short: true,
+        desc: "Send your Amitoi on expeditions for loot (return after 1/2/4/8 hours).",
+        img: "placeholder",
         boxcount: 1
     },
-    "vault": {
-        task: "Vault",
-        time: "12-19",
-        duration: 1,
+    "weekly-farming": {
+        task: "Farming Open World Mobs",
         url: "#",
-        desc: "Complete vault runs until max rewards.",
-        img: "gold",
+        short: true,
+        desc: "Farm mobs for cooking ingredients or low drop rate equipment.",
+        img: "placeholder",
         boxcount: 1
     },
+    "weekly-fishing": {
+        task: "Fishing for Ingredients",
+        url: "#",
+        short: true,
+        desc: "Fish for cooking ingredients and arch boss weapon materials.",
+        img: "placeholder",
+        boxcount: 1
+    },
+    "weekly-cooking": {
+        task: "Cooking to Increase Level",
+        url: "#",
+        short: true,
+        desc: "Cook to increase cooking level and sell for profit.",
+        img: "placeholder",
+        boxcount: 1
+    },
+    "weekly-help-friends": {
+        task: "Assist Friends and Guildies",
+        url: "#",
+        short: true,
+        desc: "Help friends and guildies with dungeons, even without stamina.",
+        img: "placeholder",
+        boxcount: 1
+    }
 };

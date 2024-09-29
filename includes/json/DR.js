@@ -1,128 +1,58 @@
 var dailies = {
-	"daily-side": {
-        task: "Adventure Seeker",
+    "daily-quest-allowances": {
+        task: "Daily Quest Allowances",
         url: "#",
         short: true,
-        desc: "Complete side quests from adventure seeker",
+        desc: "Use your 10 daily quest allowances (contracts), capped at 60, can overflow to 69.",
+        img: "placeholder",
+        boxcount: 10
+    },
+    "daily-dungeon-stamina": {
+        task: "Instanced Dungeon Stamina",
+        url: "#",
+        short: true,
+        desc: "Use your daily 900 Dimensional Points; don't overcap or you lose it.",
         img: "placeholder",
         boxcount: 1
     },
-    "daily-battlegrounds": {
-        task: "Battleground",
-        time: "8-12-18-22",
-        duration: 2,
+    "daily-open-world-stamina": {
+        task: "Open World Dungeon Stamina",
         url: "#",
         short: true,
-        desc: "Repeatable 3 times for rewards.",
-        img: "placeholder",
-        boxcount: 3
-    },
-	"daily-bestiary": {
-        task: "Bestiary",
-        url: "#",
-        short: true,
-        desc: "Complete 3 Bestiary pages",
-        img: "placeholder",
-        boxcount: 3
-    },
-    "daily-bounty": {
-        task: "Bounties",
-        url: "#",
-        short: true,
-        desc: "Complete 8 Bounties (can stack up to 24 if not all are completed in a day)",
-        img: "placeholder",
-        boxcount: 8
-    },
-    "daily-faction": {
-        task: "Contracts Daily",
-        url: "#",
-        short: true,
-        desc: "Complete your daily Shadow Contract (can stack up to 5)",
+        desc: "Use Abyssal Contract Points from previous activities; cap at 20,000.",
         img: "placeholder",
         boxcount: 1
     },
-    "daily-challenge-reward": {
-        task: "Daily Challenge Rewards",
+    "daily-weekly-missions": {
+        task: "Weekly Missions Progress",
         url: "#",
         short: true,
-        desc: "Claim the daily challenge rewards at the Challenge Rift",
+        desc: "Make progress towards your Weekly Missions.",
         img: "placeholder",
         boxcount: 1
     },
-    "daily-elder": {
-        task: "Elder Rift",
+    "daily-vendor-items": {
+        task: "Vendor Item Purchases",
         url: "#",
         short: true,
-        desc: "Collect 3 Daedessa's Blessing rewards from elder rifts",
-        img: "placeholder",
-        boxcount: 3
-    },
-    "daily-first": {
-        task: "First Kill of The Day",
-        url: "#",
-        short: true,
-        desc: "Defeat at least one monster a day to earn a free reward.",
+        desc: "Buy daily items from Contract Coin and Guild Coin vendors.",
         img: "placeholder",
         boxcount: 1
     },
-    "daily-reward": {
-        task: "Free Daily Rewards",
+    "daily-sundries-items": {
+        task: "Sundries Vendor Purchases",
         url: "#",
         short: true,
-        desc: "Claim your Daily Rewards chest in the shop under Bundles.",
+        desc: "Buy food for cooking and Weekly Open World Contracts.",
         img: "placeholder",
         boxcount: 1
     },
-    "daily-hilt": {
-        task: "Hilts Trader Daily",
+    "daily-timegate-activities": {
+        task: "Timegate Activities",
         url: "#",
         short: true,
-        desc: "Buy items from Hilts Trader - Changes 2 x daily",
-        img: "hilts",
-        boxcount: 1
-    },
-    "daily-sanctuary": {
-        task: "Legacy of the Horadrim",
-        url: "#",
-        short: true,
-        desc: "Run Iben's Sanctuary and open chests",
-        img: "key",
-        boxcount: 1
-    },
-    "daily-crest": {
-        task: "Rare Crest",
-        url: "#",
-        short: true,
-        desc: "Collect a free {rare_crest} from elder rift",
-        img: "rare_crest",
-        boxcount: 1
-    },
-	"daily-lottery": {
-        task: "Shadow Lottery",
-        time: "12-18-21",
-        duration: 1,
-        url: "#",
-        short: true,
-        desc: "Enter the Shadow Lottery.",
-        img: "signet",
-        boxcount: 1
-    },
-	"assembly": {
-        task: "The Assembly",
-        time: "19",
-        duration: 2,
-        day: "1-2-3-4-5-6",
-        url: "#",
-        desc: "Collect all 4 blessings.",
-        img: "assembly",
-        boxcount: 4
-    },
-    "daily-zone": {
-        task: "Zone Event",
-        url: "#",
-        short: true,
-        desc: "Run world events that occur on specific days such as Ancient Nightmare and Haunted Carriage",
+        desc: "Complete all timegate-based progression activities (can take as little as 30 mins).",
         img: "placeholder",
         boxcount: 1
-    },
+    }
 };
