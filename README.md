@@ -17,7 +17,7 @@
 
 ## Requests
 
-Have suggestions for missing tasks, bugs, or new feature requests? Please submit them to the [issue tracker](https://github.com/Kubuzer/DailyLiberty/issues).
+Have suggestions for missing tasks, bugs, or new feature requests? Please submit them to the [issue tracker](https://github.com/DailyLiberty/dailyliberty.github.io/issues).
 
 
 ## Credits
