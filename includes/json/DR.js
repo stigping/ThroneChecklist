@@ -3,24 +3,24 @@ var dailies = {
         task: "Daily Quest Allowances",
         url: "#",
         short: true,
-        desc: "Use your 10 daily quest allowances (contracts), capped at 60, can overflow to 69.",
-        img: "placeholder",
+        desc: "Use your 10 daily quest allowances ({contract} contracts). \nCapped at 60. You can overflow if you have 59 before reset, reaching 69 right after. \nRefreshing the list is highly recommended because there is a low chance of a Contract that rewards {blessing_pouch} Precious Blessing Pouch appearing.",
+        img: "contract",
         boxcount: 10
     },
     "daily-dungeon-stamina": {
         task: "Instanced Dungeon Stamina",
         url: "#",
         short: true,
-        desc: "Use your daily 900 Dimensional Points; don't overcap or you lose it.",
-        img: "placeholder",
+        desc: "Use your daily 900 {dimensional_points} Dimensional Points; don't overcap or you lose it.",
+        img: "dimensional_points",
         boxcount: 1
     },
     "daily-open-world-stamina": {
         task: "Open World Dungeon Stamina",
         url: "#",
         short: true,
-        desc: "Use Abyssal Contract Points from previous activities; cap at 20,000.",
-        img: "placeholder",
+        desc: "Use {abyssal_contract_token} Abyssal Contract Points from previous activities; cap at 20,000.",
+        img: "abyssal_contract_token",
         boxcount: 1
     },
     "daily-weekly-missions": {
@@ -51,7 +51,7 @@ var dailies = {
         task: "Timegate Activities",
         url: "#",
         short: true,
-        desc: "Complete all timegate-based progression activities (can take as little as 30 mins).",
+        desc: "Complete all timegate-based progression activities.",
         img: "placeholder",
         boxcount: 1
     },
