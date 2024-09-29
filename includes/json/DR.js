@@ -19,8 +19,8 @@ var dailies = {
         task: "Open World Dungeon Stamina",
         url: "#",
         short: true,
-        desc: "Use {abyssal_contract_token} Abyssal Contract Points from previous activities; cap at 20,000.",
-        img: "abyssal_contract_token",
+        desc: "Use {abyssal_contract_tokens} Abyssal Contract Points from previous activities; cap at 20,000.",
+        img: "abyssal_contract_tokens",
         boxcount: 1
     },
     "daily-weekly-missions": {
