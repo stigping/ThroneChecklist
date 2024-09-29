@@ -70,5 +70,5 @@ var weeklies = {
         desc: "Help friends and guildies with dungeons, even without stamina.",
         img: "placeholder",
         boxcount: 1
-    }
+    },
 };
