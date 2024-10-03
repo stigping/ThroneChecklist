@@ -69,7 +69,7 @@ const populateTable = function (timeFrame, char) {
         }
 
         if (!!data[taskSlug].img) {
-            newRowAnchor.innerHTML = "<img class='icon' src='../includes/img/activities/" + data[taskSlug].img + ".webp' alt=" + data[taskSlug].img + "/>" + data[taskSlug].task;
+            newRowAnchor.innerHTML = "<img class='icon' src='./includes/img/activities/" + data[taskSlug].img + ".webp' alt=" + data[taskSlug].img + "/>" + data[taskSlug].task;
         } else {
             newRowAnchor.innerHTML = data[taskSlug].task
         }
@@ -79,13 +79,16 @@ const populateTable = function (timeFrame, char) {
         }
 
         if (!!data[taskSlug].desc) {
-			let dust = data[taskSlug].desc.replace("{dust}", "<img class='icon' src='../includes/img/activities/dust.webp' alt=Dust/><b style="+"color:#ff0;"+">Enchanted Dust</b>");
-            let gems = dust.replace("{gems}", "<img class='icon' src='../includes/img/activities/gem.webp' alt=Gems/><b style="+"color:#2bd999;"+">Normal Gems</b>");
-            let ember = gems.replace("{ember}", "<img class='icon' src='../includes/img/activities/ember.webp' alt=Ember/><b style="+"color:#5aabef;"+">Fading Ember</b>");
-			let crest1 = ember.replace("{rare_crest}", "<img class='icon' src='../includes/img/activities/rare_crest.webp' alt=RareCrest/><b style="+"color:#ff0;"+">Rare Crest</b>");
-			let crest2 = crest1.replace("{leg_crest}", "<img class='icon' src='../includes/img/activities/leg_crest.webp' alt=LegendaryCrest/><b style="+"color:#bf642f;"+">Legendary Crest</b>");
-			
-			newRowColor.innerHTML = crest2;
+			let dust = data[taskSlug].desc.replace("{dust}", "<img class='icon' src='./includes/img/activities/dust.webp' alt=Dust/><b style="+"color:#ff0;"+">Enchanted Dust</b>");
+            let gems = dust.replace("{gems}", "<img class='icon' src='./includes/img/activities/gem.webp' alt=Gems/><b style="+"color:#2bd999;"+">Normal Gems</b>");
+            let ember = gems.replace("{ember}", "<img class='icon' src='./includes/img/activities/ember.webp' alt=Ember/><b style="+"color:#5aabef;"+">Fading Ember</b>");
+			let crest1 = ember.replace("{rare_crest}", "<img class='icon' src='./includes/img/activities/rare_crest.webp' alt=RareCrest/><b style="+"color:#ff0;"+">Rare Crest</b>");
+            let crest2 = crest1.replace("{leg_crest}", "<img class='icon' src='./includes/img/activities/leg_crest.webp' alt=LegendaryCrest/><b style="+"color:#bf642f;"+">Legendary Crest</b>");
+            let contract = crest2.replace("{contract}", "<img class='icon' src='./includes/img/activities/contract.webp' alt=contract/><b style="+"color:#bf642f;"+">Contract</b>");
+            let dimensional_points = contract.replace("{dimensional_points}", "<img class='icon' src='./includes/img/activities/dimensional_points.webp' alt=dimensional_points/><b style="+"color:#bf642f;"+">Dimensional Points</b>");
+            let abyssal_contract_tokens = dimensional_points.replace("{abyssal_contract_tokens}", "<img class='icon' src='./includes/img/activities/abyssal_contract_tokens.webp' alt=abyssal_contract_tokens/><b style="+"color:#bf642f;"+">Abyssal Contract Tokens</b>");
+
+			newRowColor.innerHTML = abyssal_contract_tokens;
         }
         
         let checkState = true;
