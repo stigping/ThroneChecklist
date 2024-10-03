@@ -1,6 +1,7 @@
 const storage = window.localStorage;
 
-const timeframesRoster = ['dailies', 'weeklies', 'monthlies', 'dailydrops', 'immortaldailies'];
+//const timeframesRoster = ['dailies', 'weeklies', 'monthlies', 'dailydrops', 'immortaldailies'];
+const timeframesRoster = ['dailies', 'weeklies'];
 
 var currentProfile = 'default';
 var currentLayout = 'default';
